@@ -8,34 +8,32 @@ White: #FFF
 */
 
 #logo {
-    height: 50px;
+    height: 75px;
     width: auto;
-    display: block;
 }
 
-.headbar {
+
+.navbar {
     background-color: blue;
-
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    height: min-content;
 }
 
-nav > ul {
-    display: flex;
-    justify-content: end;
-    align-content: space-evenly;
+.navbar > ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 
 
 .banner {
-    background-image: url("/lab-css-spotify-clone/images/landing.jpg");
+    background-image: url("/images/landing.jpg");
     font-size: 45px;
     color: white;
-    text-align: center;
-    vertical-align: center;
-    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: center center;
-    height: 750px;
+
 }
