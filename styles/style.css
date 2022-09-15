@@ -19,7 +19,6 @@ White: #FFF
     justify-content: space-between;
     align-items: center;
     font-size: 2rem;
-    background-color: red;
 }
 
 .navbar > ul {
@@ -33,9 +32,10 @@ ul > li {
 }
 
 .landing {
-    background-image: url("images\landing.jpg");
+    background-image: url("../images/landing.jpg");
     display: flex;
     flex-direction: column;
+    justify-content: center;
     color: #FFF;
     background-color: green;
     background-size: cover;
@@ -46,4 +46,39 @@ ul > li {
     font-size: 2rem;
     text-align: center;
     vertical-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.features {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: 100px;
+    padding: 0;
+    background-color: purple;
+}
+
+.features > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 2rem;
+}
+
+#music-icon {
+    width: 300px;
+}
+
+#hq-icon {
+    width: 300px;
+}
+
+
+#device {
+    width: 300px;
 }
