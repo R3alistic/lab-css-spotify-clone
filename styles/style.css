@@ -10,30 +10,40 @@ White: #FFF
 #logo {
     height: 75px;
     width: auto;
+    margin-left: 25px;
 }
 
-
 .navbar {
-    background-color: blue;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-content: space-between;
-    height: min-content;
+    align-items: center;
+    font-size: 2rem;
+    background-color: red;
 }
 
 .navbar > ul {
     list-style-type: none;
+    display: flex;
+    align-content: space-around;
 }
 
+ul > li {
+    margin: 10px 10px 0 10px;
+}
 
-.banner {
-    background-image: url("/images/landing.jpg");
-    font-size: 45px;
-    color: white;
+.landing {
+    background-image: url("images\landing.jpg");
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    background-size: contain;
+    color: #FFF;
+    background-color: green;
+    background-size: cover;
+    background-position: center center; 
     background-repeat: no-repeat;
-
+    margin: 0;
+    height: 850px;
+    font-size: 2rem;
+    text-align: center;
+    vertical-align: center;
 }
