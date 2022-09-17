@@ -7,10 +7,15 @@ White: #FFF
 
 */
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 #logo {
     height: 75px;
     width: auto;
-    margin-left: 25px;
+    margin-left: 50px;
 }
 
 .navbar {
@@ -19,12 +24,17 @@ White: #FFF
     justify-content: space-between;
     align-items: center;
     font-size: 2rem;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    max-width: 100%;
 }
 
 .navbar > ul {
     list-style-type: none;
     display: flex;
     align-content: space-around;
+    margin-right: 50px;
 }
 
 ul > li {
@@ -42,7 +52,8 @@ ul > li {
     background-position: center center; 
     background-repeat: no-repeat;
     margin: 0;
-    height: 850px;
+    height: 950px;
+    width: 100%;
     font-size: 2rem;
     text-align: center;
     vertical-align: center;
@@ -51,34 +62,81 @@ ul > li {
 p {
     text-align: center;
     font-size: 2rem;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    text-decoration-thickness: 15%;
+    text-underline-offset: 15px;
 }
 
 .features {
     display: flex;
-    align-items: center;
-    justify-items: center;
+    justify-items: flex-end;    
+    align-items: baseline;
     margin: 100px;
     padding: 0;
-    background-color: purple;
+    font-size: 2rem;
+    text-align: center;
 }
 
 .features > div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
+    margin-left: 140px;
+}
+
+#green-text {
+    color: #00B172;
+    font-weight: bold;
+}
+
+#icon {
+    width: 300px;
+}
+
+.appfeatures {
+    background-color: #00B172;
+    width: 85%;
+    height: auto;
+    margin: 0 0 5% 5%; 
+    display: flex;
+    flex-direction: column;
+    padding: 5% 2%;
+}
+
+.ezpz {
+    display: inline;
+    margin: 1% 0 0 5%;
+    color: #FFF;
+    text-justify: auto;
     font-size: 2rem;
+    text-decoration: underline;
+    text-decoration-color: #FFF;
+    text-decoration-thickness: 10%;
+    text-underline-offset: 15px;
 }
 
-#music-icon {
-    width: 300px;
+.feature-title, .feature-text  {
+    color: #FFF;
+    display: inline;
+    width: 20%;
+    margin: 1% 0 0 5%;
+    font-size: 150%;
 }
 
-#hq-icon {
-    width: 300px;
+#spotify-icon-white {
+    width: 150px;
+    position: absolute;
+    right: 45%;
+}
+
+#kanye {
+    width: 20%;
+    align-self: flex-end;
+    justify-content: baseline;
+    position: absolute;
+    padding: 95px 55px 0 0;
 }
 
 
-#device {
-    width: 300px;
-}
